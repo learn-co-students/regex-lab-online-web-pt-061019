@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(array)
-  array.select {|w| w.(/^[aeiou]/)}
+  array.select {|w| w.(/^[aeiouAEIOU]/)}
 
 end
 
